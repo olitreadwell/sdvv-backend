@@ -112,7 +112,9 @@ export class CandidateQLService {
       .addSelect('election_year', 'electionYear')
       .addSelect('in_primary_election', 'inPrimaryElection')
       .addSelect('in_general_election', 'inGeneralElection')
-      .addSelect('full_office_name', 'fullOfficeName');
+      .addSelect('full_office_name', 'fullOfficeName')
+      .addSelect('is_not_on_ballot', 'isNotOnBallot');
+      
     return query;
   }
 
