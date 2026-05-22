@@ -53,6 +53,8 @@ export class CandidatesInfoUpdateService {
         candidateWithInfo?.alternateCandidateNames?.map((name) =>
           name.toLowerCase(),
         ) ?? null;
+
+      candidate.is_not_on_ballot = candidateWithInfo.isNotOnBallot;
     }
 
     return candidates;
