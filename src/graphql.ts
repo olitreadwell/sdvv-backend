@@ -67,6 +67,7 @@ export interface Candidate {
     description?: Nullable<string>;
     imageUrl?: Nullable<string>;
     website?: Nullable<string>;
+    isNotOnBallot?: Nullable<boolean>;
     jurisdictionName?: Nullable<string>;
     agency?: Nullable<string>;
     office?: Nullable<string>;
