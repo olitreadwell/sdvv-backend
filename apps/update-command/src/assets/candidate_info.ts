@@ -65,6 +65,8 @@ export interface CandidateInfo {
    *  committeeNameOverride: 'First Last for City Council 2020'
    */
   committeeNameOverride?: string;
+
+  isNotOnBallot?: boolean;
 }
 
 /* Template

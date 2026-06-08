@@ -90,6 +90,9 @@ export class CandidateEntity {
 
   @Column({ nullable: true })
   website?: string | null;
+
+  @Column({ nullable: true })
+  is_not_on_ballot?: boolean | null;
   
   // Use to indicate independent expenditure transactions
   // that support or oppose this candidate from expn

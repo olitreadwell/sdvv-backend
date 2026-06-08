@@ -9,6 +9,7 @@ type Candidate {
   description: String
   imageUrl: String
   website: String
+  isNotOnBallot: Boolean
 
   jurisdictionName: String
   agency: String
